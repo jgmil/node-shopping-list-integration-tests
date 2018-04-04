@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: PuEjXbzbopocENg5fNTpqBoI1NJS9BaZOhUMwnlZbEZhcKmXZ0Kn+8Q0/xnzNbzBxh6zG5pQ6tGIKrAu/zDpSkca1cL+yahQkKtJazRgDrpdDSoDsQs1DW2yiht0P4lF9Pm28Rs/QqpHTDry+mLzl3YdqlIpzIG8BgU21FZOOc55jtPU+/56WiCH+nR/uUNHuYlMWxaE1ZUaIWDVm0v1lr4vPeETp8xcTTz1uKkQEuJyJoYVqNfXY/B6wtweTGnJudjKVkY8xKYryvlYhGQr3GNmtv95gEYxrrlSwOh14ddbiQhaDEk1eC8VhrvUfjSFjo3MBiw3D4GUc40b0+8DEeLCaYpf/jW5w6Q3rnMbuGiNO/4hdzindaPD8bMHd5zm3PHoL2T9kQBBTPSClcQomTobYONNpj9K8fJ8DO6cM2blRUBfwR33RbObauwlkDUDaXMgM9n6Du4ud+e2VzrJtzCQv6p8nKJWDtApWl6O0PAg8ZwSrG+qN24SF9rclsAEwViN4i8+wyIO+ZKQABbRjCDDVyxT3NTFduVSgrWmz2EqOIBJgP4B/hm7XluMtu52eQ9t7gtnqdqKe1gExndHI3xA7Itf+OB2FXri8t69RP/8EhCAeQNegTqLVBzOweW0paYqDOuuz7X7vTMqky66lDKSDTIFQJR1sc7gu9PLN7Q=
+    app: rocky-retreat-21995
+  on:
+    repo: jgmil/node-shopping-list-integration-tests
